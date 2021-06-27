@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,300;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rounded-message {
+    @apply p-4 rounded-full;
+}
+
+.orange-message:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 17px solid #fcd34d;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    bottom: 0;
+    left: -7px;
+}
+
+.blueish-message:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 17px solid lavender;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    bottom: 0;
+    right: -7px;
+}
+
+.pink-message:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 17px solid mistyrose;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    bottom: 0;
+    left: -7px;
+}
+
+.greenish-message:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 17px solid #6ee7b7;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    bottom: 0;
+    right: -7px;
+}
